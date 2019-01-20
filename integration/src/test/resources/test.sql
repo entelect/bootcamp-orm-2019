@@ -1,0 +1,9 @@
+CREATE TABLE Test (
+  ID BIGINT,
+  NAME VARCHAR(20)
+);
+
+INSERT INTO Test (ID, NAME) VALUES
+(1, 'A'),
+(2, 'B'),
+(3, 'C');

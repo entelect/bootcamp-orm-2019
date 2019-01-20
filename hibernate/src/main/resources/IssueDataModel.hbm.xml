@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="za.co.entelect.bootcamp.orm.hibernate.models">
+
+    <class name="IssueDataModel" table="Issues">
+        <id name="id" column="IssueID">
+            <generator class="increment"/>
+        </id>
+        <property name="title"/>
+        <property name="description"/>
+        <property name="publisher"/>
+        <property name="seriesNumber" type="short"/>
+        <property name="publicationDate" type="LocalDate"/>
+    </class>
+</hibernate-mapping>
