@@ -16,8 +16,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.*;
 
 
 public abstract class AbstractSaveStockGatewayTest {
@@ -65,7 +64,7 @@ public abstract class AbstractSaveStockGatewayTest {
 
         // When
         stock.setComments("Test");
-        stock.setPrice(BigDecimal.valueOf(123));
+        stock.setPrice(new BigDecimal("123.00"));
         stock.setAvailableQty((short) 1);
         stock.setCoverImagePath("C:\\Images\\superman.png");
         stock.setCondition(Condition.Poor);
@@ -94,10 +93,10 @@ public abstract class AbstractSaveStockGatewayTest {
         ResultSet resultSet = statement.executeQuery();
         resultSet.next();
 
-        assertEquals(saved.getCondition(), resultSet.getString("condition"));
-        assertEquals(saved.getAvailableQty(), resultSet.getString("availableQty"));
-        assertEquals(saved.getPrice(), resultSet.getShort("price"));
-        assertEquals(saved.getComments(), resultSet.getDate("comments"));
-        assertEquals(saved.getCoverImagePath(), resultSet.getInt("coverImagePath"));
+        assertTrue(resultSet.getString("condition").contains(saved.getCondition().name()));
+        assertEquals((short) saved.getAvailableQty(), resultSet.getShort("availableQty"));
+        assertEquals(saved.getPrice(), resultSet.getBigDecimal("price"));
+        assertEquals(saved.getComments(), resultSet.getString("comments"));
+        assertEquals(saved.getCoverImagePath(), resultSet.getString("coverImagePath"));
     }
 }
