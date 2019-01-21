@@ -1,4 +1,4 @@
-package za.co.entelect.bootcamp.orm.integration.core;
+package za.co.entelect.bootcamp.orm.integration.core.issue;
 
 import org.junit.After;
 import org.junit.Before;

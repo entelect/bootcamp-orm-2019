@@ -35,6 +35,7 @@
         <property name="hbm2ddl.auto">validate</property>
 
         <mapping resource="/exercise/IssueWithStockDataModel.hbm.xml"/>
+        <!-- TODO: Exercise 2 (Hibernate) - Map StockDataModel -->
     </session-factory>
 
 </hibernate-configuration>

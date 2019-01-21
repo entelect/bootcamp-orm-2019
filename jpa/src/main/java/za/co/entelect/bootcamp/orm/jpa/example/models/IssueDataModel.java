@@ -1,7 +1,8 @@
-package za.co.entelect.bootcamp.orm.jpa.models;
+package za.co.entelect.bootcamp.orm.jpa.example.models;
 
 import lombok.Getter;
 import lombok.Setter;
+import za.co.entelect.bootcamp.orm.jpa.common.models.IdentifiableDataModel;
 
 import javax.persistence.AttributeOverride;
 import javax.persistence.Column;

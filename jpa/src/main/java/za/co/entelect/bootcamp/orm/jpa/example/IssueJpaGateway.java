@@ -1,4 +1,4 @@
-package za.co.entelect.bootcamp.orm.jpa;
+package za.co.entelect.bootcamp.orm.jpa.example;
 
 import za.co.entelect.bootcamp.orm.core.common.Page;
 import za.co.entelect.bootcamp.orm.core.entities.Issue;
@@ -6,8 +6,8 @@ import za.co.entelect.bootcamp.orm.core.gateway.exception.NotFoundException;
 import za.co.entelect.bootcamp.orm.core.usecases.issue.readone.ReadOneIssueGateway;
 import za.co.entelect.bootcamp.orm.core.usecases.issue.readpage.ReadIssuePageGateway;
 import za.co.entelect.bootcamp.orm.core.usecases.issue.save.SaveIssueGateway;
-import za.co.entelect.bootcamp.orm.jpa.mappers.IssueMapper;
-import za.co.entelect.bootcamp.orm.jpa.models.IssueDataModel;
+import za.co.entelect.bootcamp.orm.jpa.example.mappers.IssueMapper;
+import za.co.entelect.bootcamp.orm.jpa.example.models.IssueDataModel;
 
 import javax.persistence.EntityManager;
 import javax.persistence.Persistence;

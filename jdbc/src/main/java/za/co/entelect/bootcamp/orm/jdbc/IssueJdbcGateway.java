@@ -116,6 +116,7 @@ public class IssueJdbcGateway
                 "Description = '" + issueToSave.getDescription() + "' " +
                 "WHERE IssueId = " + issueToSave.getId();
 
+        // TODO: Exercise 1 (JDBC) - Make SQL injection safe
         Statement statement = connection.createStatement();
         int updated = statement.executeUpdate(query);
         if (updated != 1) {

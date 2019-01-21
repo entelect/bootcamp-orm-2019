@@ -1,4 +1,4 @@
-package za.co.entelect.bootcamp.orm.jpa.models;
+package za.co.entelect.bootcamp.orm.jpa.common.models;
 
 import lombok.Getter;
 import lombok.Setter;
