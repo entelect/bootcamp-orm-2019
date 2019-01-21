@@ -4,9 +4,9 @@
         "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 
-<hibernate-mapping package="za.co.entelect.bootcamp.orm.hibernate.models">
+<hibernate-mapping package="za.co.entelect.bootcamp.orm.hibernate.exercise.models">
 
-    <class name="IssueDataModel" table="Issues">
+    <class name="IssueWithStockDataModel" table="Issues">
         <id name="id" column="IssueID">
             <generator class="increment"/>
         </id>
@@ -15,5 +15,11 @@
         <property name="publisher"/>
         <property name="seriesNumber" type="short"/>
         <property name="publicationDate" type="LocalDate"/>
+        <set name="stock" table="Stock" inverse="true" cascade="save-update" lazy="true" fetch="select">
+            <key>
+                <column name="IssueID" not-null="true" />
+            </key>
+            <one-to-many class="za.co.entelect.bootcamp.orm.hibernate.exercise.models.StockDataModel" />
+        </set>
     </class>
 </hibernate-mapping>

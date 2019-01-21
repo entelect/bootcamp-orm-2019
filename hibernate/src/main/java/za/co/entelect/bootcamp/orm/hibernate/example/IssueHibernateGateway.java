@@ -1,4 +1,4 @@
-package za.co.entelect.bootcamp.orm.hibernate;
+package za.co.entelect.bootcamp.orm.hibernate.example;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -12,8 +12,8 @@ import za.co.entelect.bootcamp.orm.core.gateway.exception.NotFoundException;
 import za.co.entelect.bootcamp.orm.core.usecases.issue.readone.ReadOneIssueGateway;
 import za.co.entelect.bootcamp.orm.core.usecases.issue.readpage.ReadIssuePageGateway;
 import za.co.entelect.bootcamp.orm.core.usecases.issue.save.SaveIssueGateway;
-import za.co.entelect.bootcamp.orm.hibernate.mappers.IssueMapper;
-import za.co.entelect.bootcamp.orm.hibernate.models.IssueDataModel;
+import za.co.entelect.bootcamp.orm.hibernate.example.mappers.IssueMapper;
+import za.co.entelect.bootcamp.orm.hibernate.example.models.IssueDataModel;
 
 import java.util.List;
 
@@ -23,7 +23,7 @@ public class IssueHibernateGateway implements ReadOneIssueGateway, ReadIssuePage
     public IssueHibernateGateway() throws Exception {
         final StandardServiceRegistry registry =
                 new StandardServiceRegistryBuilder()
-                    .configure() // configures settings from hibernate.cfg.xml
+                        .configure("/example/hibernate.cfg.xml")
                     .build();
 
         try {

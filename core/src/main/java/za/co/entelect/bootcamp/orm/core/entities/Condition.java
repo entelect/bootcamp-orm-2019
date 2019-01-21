@@ -4,10 +4,10 @@ import lombok.Getter;
 
 @Getter
 public enum Condition {
-    POOR("Poor"),
-    AVERAGE("Average"),
-    FINE("Fine"),
-    VERY_FINE("Very Fine");
+    Poor("Poor"),
+    Average("Average"),
+    Fine("Fine"),
+    VeryFine("Very Fine");
 
     private String name;
 

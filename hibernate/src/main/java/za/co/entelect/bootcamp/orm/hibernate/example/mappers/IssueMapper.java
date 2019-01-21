@@ -1,9 +1,9 @@
-package za.co.entelect.bootcamp.orm.hibernate.mappers;
+package za.co.entelect.bootcamp.orm.hibernate.example.mappers;
 
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 import za.co.entelect.bootcamp.orm.core.entities.Issue;
-import za.co.entelect.bootcamp.orm.hibernate.models.IssueDataModel;
+import za.co.entelect.bootcamp.orm.hibernate.example.models.IssueDataModel;
 
 import java.util.List;
 

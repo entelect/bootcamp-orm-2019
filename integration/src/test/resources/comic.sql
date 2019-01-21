@@ -1157,19 +1157,19 @@ INSERT INTO Issues (IssueID, Title, PublicationDate, Publisher, SeriesNumber, De
 Are these, who seem so overcome with woe?"');
 
 
-INSERT INTO Stock (StockReferenceID, IssueID, Condition, AvailableQty, Price, Comments, CoverImagePath) VALUES (1, 2, N'Very Fine', 6, CAST(188.03 AS Numeric(8, 2)), NULL, N'D:\StockImages\PlaceHolder.png');
-INSERT INTO Stock (StockReferenceID, IssueID, Condition, AvailableQty, Price, Comments, CoverImagePath) VALUES (2, 3, N'Very Fine', 0, CAST(99.14 AS Numeric(8, 2)), NULL, N'D:\StockImages\PlaceHolder.png');
-INSERT INTO Stock (StockReferenceID, IssueID, Condition, AvailableQty, Price, Comments, CoverImagePath) VALUES (3, 4, N'Very Fine', 6, CAST(90.63 AS Numeric(8, 2)), NULL, N'D:\StockImages\PlaceHolder.png');
-INSERT INTO Stock (StockReferenceID, IssueID, Condition, AvailableQty, Price, Comments, CoverImagePath) VALUES (4, 5, N'Very Fine', 2, CAST(171.36 AS Numeric(8, 2)), NULL, N'D:\StockImages\PlaceHolder.png');
-INSERT INTO Stock (StockReferenceID, IssueID, Condition, AvailableQty, Price, Comments, CoverImagePath) VALUES (5, 6, N'Very Fine', 3, CAST(49.29 AS Numeric(8, 2)), N'igh estate.  Forthwith
+INSERT INTO Stock (StockReferenceID, IssueID, Condition, AvailableQty, Price, Comments, CoverImagePath) VALUES (1, 2, N'VeryFine', 6, CAST(188.03 AS Numeric(8, 2)), NULL, N'D:\StockImages\PlaceHolder.png');
+INSERT INTO Stock (StockReferenceID, IssueID, Condition, AvailableQty, Price, Comments, CoverImagePath) VALUES (2, 3, N'VeryFine', 0, CAST(99.14 AS Numeric(8, 2)), NULL, N'D:\StockImages\PlaceHolder.png');
+INSERT INTO Stock (StockReferenceID, IssueID, Condition, AvailableQty, Price, Comments, CoverImagePath) VALUES (3, 4, N'VeryFine', 6, CAST(90.63 AS Numeric(8, 2)), NULL, N'D:\StockImages\PlaceHolder.png');
+INSERT INTO Stock (StockReferenceID, IssueID, Condition, AvailableQty, Price, Comments, CoverImagePath) VALUES (4, 5, N'VeryFine', 2, CAST(171.36 AS Numeric(8, 2)), NULL, N'D:\StockImages\PlaceHolder.png');
+INSERT INTO Stock (StockReferenceID, IssueID, Condition, AvailableQty, Price, Comments, CoverImagePath) VALUES (5, 6, N'VeryFine', 3, CAST(49.29 AS Numeric(8, 2)), N'igh estate.  Forthwith
 I understood for certain this the tribe
 Of those ill spirits both to God displeasing
 And to his foes.  These wretches, who ne''er lived,
 Went on in nak', N'D:\StockImages\PlaceHolder.png');
-INSERT INTO Stock (StockReferenceID, IssueID, Condition, AvailableQty, Price, Comments, CoverImagePath) VALUES (6, 7, N'Very Fine', 7, CAST(77.46 AS Numeric(8, 2)), NULL, N'D:\StockImages\PlaceHolder.png');
-INSERT INTO Stock (StockReferenceID, IssueID, Condition, AvailableQty, Price, Comments, CoverImagePath) VALUES (7, 8, N'Very Fine', 8, CAST(41.98 AS Numeric(8, 2)), NULL, N'D:\StockImages\PlaceHolder.png');
-INSERT INTO Stock (StockReferenceID, IssueID, Condition, AvailableQty, Price, Comments, CoverImagePath) VALUES (8, 9, N'Very Fine', 0, CAST(19.54 AS Numeric(8, 2)), NULL, N'D:\StockImages\PlaceHolder.png');
-INSERT INTO Stock (StockReferenceID, IssueID, Condition, AvailableQty, Price, Comments, CoverImagePath) VALUES (9, 10, N'Very Fine', 7, CAST(71.55 AS Numeric(8, 2)), N'ith that ill band
+INSERT INTO Stock (StockReferenceID, IssueID, Condition, AvailableQty, Price, Comments, CoverImagePath) VALUES (6, 7, N'VeryFine', 7, CAST(77.46 AS Numeric(8, 2)), NULL, N'D:\StockImages\PlaceHolder.png');
+INSERT INTO Stock (StockReferenceID, IssueID, Condition, AvailableQty, Price, Comments, CoverImagePath) VALUES (7, 8, N'VeryFine', 8, CAST(41.98 AS Numeric(8, 2)), NULL, N'D:\StockImages\PlaceHolder.png');
+INSERT INTO Stock (StockReferenceID, IssueID, Condition, AvailableQty, Price, Comments, CoverImagePath) VALUES (8, 9, N'VeryFine', 0, CAST(19.54 AS Numeric(8, 2)), NULL, N'D:\StockImages\PlaceHolder.png');
+INSERT INTO Stock (StockReferenceID, IssueID, Condition, AvailableQty, Price, Comments, CoverImagePath) VALUES (9, 10, N'VeryFine', 7, CAST(71.55 AS Numeric(8, 2)), N'ith that ill band
 Of angels mix''d, who nor rebellious prov''d
 Nor yet were true to God, but for themselves
 Were only.  From his bounds Heaven drove them forth,

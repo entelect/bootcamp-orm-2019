@@ -34,8 +34,7 @@
         <!-- Drop and re-create the database schema on startup -->
         <property name="hbm2ddl.auto">validate</property>
 
-        <mapping resource="IssueDataModel.hbm.xml"/>
-
+        <mapping resource="/example/IssueDataModel.hbm.xml"/>
     </session-factory>
 
 </hibernate-configuration>

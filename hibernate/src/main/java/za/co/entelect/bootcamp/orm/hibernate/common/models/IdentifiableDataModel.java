@@ -1,4 +1,4 @@
-package za.co.entelect.bootcamp.orm.hibernate.models;
+package za.co.entelect.bootcamp.orm.hibernate.common.models;
 
 import lombok.Getter;
 import lombok.Setter;

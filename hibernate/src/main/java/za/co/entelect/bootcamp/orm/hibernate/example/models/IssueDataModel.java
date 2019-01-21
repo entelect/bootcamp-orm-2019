@@ -1,7 +1,8 @@
-package za.co.entelect.bootcamp.orm.hibernate.models;
+package za.co.entelect.bootcamp.orm.hibernate.example.models;
 
 import lombok.Getter;
 import lombok.Setter;
+import za.co.entelect.bootcamp.orm.hibernate.common.models.IdentifiableDataModel;
 
 import java.time.LocalDate;
 
